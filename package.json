@@ -1,0 +1,34 @@
+{
+  "name": "mcp-keymap-inspector",
+  "version": "1.0.0",
+  "description": "Keybinding conflict auditor and MCP tool helper for inspecting VS Code, Cursor, and Windsurf keybindings.json files.",
+  "type": "module",
+  "main": "./index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techkayacodes/mcp-keymap-inspector.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "keybindings",
+    "vscode",
+    "cursor",
+    "keyboard-shortcuts",
+    "developer-tools"
+  ],
+  "author": "Kemal Codes (@techkayacodes) <https://www.keyboardcheatcodes.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techkayacodes/mcp-keymap-inspector/issues"
+  },
+  "homepage": "https://github.com/techkayacodes/mcp-keymap-inspector#readme"
+}
