@@ -4,12 +4,17 @@
   "description": "Keybinding conflict auditor and MCP tool helper for inspecting VS Code, Cursor, and Windsurf keybindings.json files.",
   "type": "module",
   "main": "./index.js",
+  "bin": {
+    "mcp-keymap-inspector": "./index.js"
+  },
   "files": [
     "index.js",
+    "Dockerfile",
     "README.md",
     "LICENSE"
   ],
   "scripts": {
+    "start": "node index.js",
     "test": "node --test test.js"
   },
   "repository": {
